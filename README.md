@@ -28,13 +28,10 @@ Está é uma aplicação em rede que implementa o protocolo IRC­2, possibilitan
 
 ## Comandos suportados
 
-1- **NICK <nick>**: apelido do cliente. Utilizado com identificador do cliente para 
+1. **NICK <nick>**: apelido do cliente. Utilizado com identificador do cliente para 
 comunicação 
-2- **NEW <nick> <mensagem>**: formato de mensagem enviada do servidor para clientes. 
-3- **POST <mensagem>**: envio de mensagens do cliente para o servidor, tamanho máximo 
-da mensagem de 500 caracteres. 
-4- **MUTE <nick>**: indicativo do cliente para o servidor que aquele cliente não deseja 
-receber mensagens do cliente identificado (pelo nick) 
-5- **UNMUTE <nick>**:  indicativo do cliente para o servidor que aquele cliente deseja 
-“desbloquear” o usuário identificado pelo nick para que eles possam se comunicar. 
-6- **CLOSE**: fechamento da conexão com o servidor, encerrando a comunicação.
+2. **NEW <nick> <mensagem>**: formato de mensagem enviada do servidor para clientes. 
+3. **POST <mensagem>**: envio de mensagens do cliente para o servidor, tamanho máximo da mensagem de 500 caracteres. 
+4. **MUTE <nick>**: indicativo do cliente para o servidor que aquele cliente não deseja receber mensagens do cliente identificado (pelo nick)
+5. **UNMUTE <nick>**:  indicativo do cliente para o servidor que aquele cliente deseja “desbloquear” o usuário identificado pelo nick para que eles possam se comunicar. 
+6. **CLOSE**: fechamento da conexão com o servidor, encerrando a comunicação.
